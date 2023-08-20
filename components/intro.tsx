@@ -3,10 +3,15 @@ import Image from "next/image";
 import React from "react";
 import profile from "@/public/profile.jpg";
 import { motion } from "framer-motion";
+import { CgDropOpacity } from "react-icons/cg";
+import Link from "next/link";
+import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { HiDownload } from "react-icons/hi";
+import { FaGithubSquare } from "react-icons/fa";
 
 export default function Intro() {
   return (
-    <section>
+    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -46,16 +51,57 @@ export default function Intro() {
         </div>
       </div>
 
-      <p>
-        Hello, I'm Mateus, but you can call me{" "}
-        <span className="font-bold">Matt</span>, a junior{" "}
-        <span className="font-bold">full-stack developer</span>. My journey
-        started with a journalism degree, cultivating{" "}
-        <span className="font-bold">strong communication skills</span> . Now,
-        I'm immersed in the world of code, specializing in{" "}
-        <span className=" font-bold italic">React and Next.js </span>. Let's
-        build the future of the web <span className="underline">together</span>.
-      </p>
+      <motion.p
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+      >
+        <span className="font-bold">Ahoy, I'm Mateus</span>, a junior{" "}
+        <span className="font-bold">full-stack Web Developer & Journalist</span>
+        . Now, I'm immersed in the world of code, specialized in{" "}
+        <span className="  italic underline">React and Next.js </span>.
+      </motion.p>
+      <motion.div
+        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.1,
+        }}
+      >
+        <Link
+          href="#contact"
+          className="group bg-orange-600 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-orange-500 active:scale-105 transition"
+        >
+          Contact me here
+          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+        </Link>
+
+        <a
+          className=" group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
+          href="/CV.pdf"
+          download
+        >
+          Download CV
+          <HiDownload className="opacity-60 group-hover:text-orange-600 group-hover:translate-y-1 transition" />
+        </a>
+
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15]  hover:text-orange-600 active:scale-105 transition cursor-pointer border border-black/10"
+          href="https://www.linkedin.com/in/akamateus/"
+          target="_blank"
+        >
+          <BsLinkedin />
+        </a>
+
+        <a
+          className="bg-white p-4 text-gray-700 text-[1.30rem] flex items-center gap-2 rounded-full focus:scale-[1.15]  hover:text-orange-600 hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10"
+          href="https://github.com/akamateus"
+          target="_blank"
+        >
+          <FaGithubSquare />
+        </a>
+      </motion.div>
     </section>
   );
 }
