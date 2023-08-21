@@ -1,31 +1,42 @@
+"use client";
+
 import React from "react";
+import SectionHeading from "./section-heading";
+import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section>
-      <h2>About me </h2>
-      <p>
-        I am a passionate Junior Web Developer who has recently completed an
-        intensive full-stack bootcamp, immersing myself in the world of web
-        technologies including HTML, CSS, JavaScript, TypeScript, React,
-        Next.js, and MongoDB, among others. My technical skills are complemented
-        by strong communication abilities, stemming from my background in
-        Journalism. I've honed my expertise in digital marketing and social
-        media, which adds a unique layer to my skill set. Drawing from my
-        knowledge in web design, I seamlessly integrate aesthetic principles
-        into my frontend work, creating user-centric and visually appealing
-        digital experiences.
+    <motion.section
+      className="mb- 28 max-w-[45rem] text-center leading-8 sm:mb-40"
+      initial={{ y: 100, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ delay: 0.175 }}
+    >
+      <SectionHeading>About me</SectionHeading>
+      <p className="mb-3">
+        Hey there! I'm a Junior{" "}
+        <span className="font-medium">Web Developer</span> who just rocked a
+        full-stack bootcamp, diving into all things web like{" "}
+        <span className="font-medium">
+          HTML, CSS, JavaScript, TypeScript, Next.js, React, and MongoDB.{" "}
+        </span>{" "}
+        But I'm not just about the code. My background in{" "}
+        <span className="font-medium">Journalism</span> has sharpened my{" "}
+        <span className="font-medium">communication skills, </span>
+        and I've even dabbled in{" "}
+        <span className="font- ">digital marketing and social media.</span> I've
+        got a knack for web design too, which definitely comes in handy when I'm
+        jazzing up the frontend of websites.
       </p>
-      My insatiable curiosity defines my approach to life and work. I am driven
-      by an unquenchable thirst for knowledge, always seeking to broaden my
-      horizons and embrace new challenges. This enthusiasm keeps me in a
-      constant state of motion, whether I'm deepening my understanding of
-      emerging technologies or uncovering novel ways to enhance my coding
-      prowess. With an unwavering commitment to growth, I find joy in the
-      process of continuous learning, a quality that propels me forward as I
-      strive to create innovative and impactful solutions in the ever-evolving
-      landscape of web development.
-      <p></p>
-    </section>
+      <p>
+        I'm like a curious cat with with energy. Learning new things and music
+        are <span className="underline">my passion</span>, and I'm always on the
+        go – whether I'm coding up a storm, learning the latest tech trends, or
+        stumbling upon life hacks. It's like a treasure hunt for knowledge, and
+        I'm in it for the long haul. This excitement fuels my journey as I
+        create
+        <span className="font-medium"> innovative web solutions</span>.
+      </p>
+    </motion.section>
   );
 }
