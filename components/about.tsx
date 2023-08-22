@@ -16,7 +16,7 @@ export default function About() {
       <p className="mb-3">
         Hey there! I'm a Junior{" "}
         <span className="font-medium">Web Developer</span> who just rocked a
-        full-stack bootcamp, diving into all things web like{" "}
+        full-stack Bootcamp, diving into all things web like{" "}
         <span className="font-medium">
           HTML, CSS, JavaScript, TypeScript, Next.js, React, and MongoDB.{" "}
         </span>{" "}
@@ -26,7 +26,7 @@ export default function About() {
         and I've even dabbled in{" "}
         <span className="font- ">digital marketing and social media.</span> I've
         got a knack for web design too, which definitely comes in handy when I'm
-        jazzing up the frontend of websites.
+        jazzing up the frontend of websites – like this one 🧑🏽‍💻
       </p>
       <p>
         I'm like a curious cat with with energy. Learning new things and music
@@ -34,7 +34,7 @@ export default function About() {
         go – whether I'm coding up a storm, learning the latest tech trends, or
         stumbling upon life hacks. It's like a treasure hunt for knowledge, and
         I'm in it for the long haul. This excitement fuels my journey as I
-        create
+        create.
         <span className="font-medium"> innovative web solutions</span>.
       </p>
     </motion.section>
