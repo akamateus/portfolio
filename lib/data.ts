@@ -62,18 +62,18 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "GitHub Portfolio",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: myceleryImg,
+      "I've built and contributed to over 20 repositories and mini-projects on GitHub, showcasing a diverse range of skills and creative exploration.",
+    tags: ["JS", "HTML", "CSS", "TS", "React", "Next.js"],
+    imageUrl: githubImg,
   },
   {
-    title: "rmtDev",
+    title: "MyCelery",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: githubImg,
+      "I conceptualized, designed, and developed a captivating social media application that fosters meaningful connections.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "MongoDB", "Prisma"],
+    imageUrl: myceleryImg,
   },
   {
     title: "Word Analytics",
