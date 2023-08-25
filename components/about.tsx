@@ -3,11 +3,17 @@
 import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 export default function About() {
+  const { ref, inView } = useInView();
+
+  // console.log(inView);
+
   return (
     <motion.section
       id="about"
+      ref={ref}
       className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
       initial={{ y: 100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
