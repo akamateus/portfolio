@@ -17,7 +17,8 @@ export default function About() {
       transition={{ delay: 0.175 }}
     >
       <SectionHeading>About me</SectionHeading>
-      <div className="border-2 rounded-lg border-black/10 p-4">
+      {/* className="border-2 rounded-lg border-black/10 p-4" */}
+      <div>
         <p className="mb-3">
           Hey there! I'm a Junior{" "}
           <span className="font-medium">Web Developer</span> who just rocked a
