@@ -22,7 +22,7 @@ export default function About() {
         <p className="mb-3">
           Hey there! I'm a Junior{" "}
           <span className="font-medium">Web Developer</span> who just rocked a
-          full-stack Bootcamp, diving into all things web like{" "}
+          full-stack Bootcamp, diving into all things in web like{" "}
           <span className="font-medium">
             HTML, CSS, JavaScript, TypeScript, Next.js, React, and MongoDB.{" "}
           </span>{" "}
