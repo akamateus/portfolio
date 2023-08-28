@@ -39,7 +39,7 @@ export const experiencesData = [
     location: "Berlin, Germany",
     description:
       "I embarked on a 3-month immersive full stack bootcamp. Those intense months molded me into a versatile developer, primed with web prowess and software skills for a dynamic tech career ahead.",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(FaReact),
     date: "2023",
   },
   {
@@ -83,13 +83,13 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "MongoDB", "Prisma"],
     imageUrl: myceleryImg,
   },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+  // {
+  //   title: "Word Analytics",
+  //   description:
+  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+  //   imageUrl: wordanalyticsImg,
+  // },
 ] as const;
 
 export const skillsData = [
