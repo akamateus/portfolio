@@ -77,7 +77,7 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-orange-600 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-orange-500 active:scale-105 transition"
+          className="group bg-orange-400 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-orange-500 active:scale-105 transition"
         >
           Contact me here
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
@@ -89,7 +89,7 @@ export default function Intro() {
           download
         >
           Download CV
-          <HiDownload className="opacity-60 group-hover:text-orange-600 group-hover:translate-y-1 transition" />
+          <HiDownload className="opacity-60 group-hover:text-orange-500 group-hover:translate-y-1 transition" />
         </a>
 
         <a
