@@ -39,7 +39,7 @@ export default function Project({
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
               <li
-                className="bg-orange-500 px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full"
+                className="bg-amber-500 px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full"
                 key={index}
               >
                 {tag}
