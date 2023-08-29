@@ -75,6 +75,7 @@ export const projectsData = [
       "I've built and contributed to over 20 repositories and mini-projects on GitHub, showcasing a diverse range of skills and creative exploration.",
     tags: ["JS", "HTML", "CSS", "TS", "React", "Next.js"],
     imageUrl: githubImg,
+    link: "https://github.com/akamateus",
   },
   {
     title: "MyCelery",
@@ -82,6 +83,7 @@ export const projectsData = [
       "I conceptualized, designed, and developed a captivating social media application that fosters meaningful connections.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "MongoDB", "Prisma"],
     imageUrl: myceleryImg,
+    link: "https://mycelery.vercel.app/",
   },
   // {
   //   title: "Word Analytics",
