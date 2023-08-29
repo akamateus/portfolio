@@ -20,6 +20,7 @@ export default function Contact() {
       transition={{
         duration: 1,
       }}
+      viewport={{ once: true }}
     >
       <SectionHeading>Contact me</SectionHeading>
       <p className="text-gray-700 -mt-6">
