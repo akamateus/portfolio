@@ -73,7 +73,7 @@ export const projectsData = [
     title: "GitHub Portfolio",
     description:
       "I've built and contributed to over 20 repositories and mini-projects on GitHub, showcasing a diverse range of skills and creative exploration.",
-    tags: ["JS", "HTML", "CSS", "TS", "React", "Next.js"],
+    tags: ["JavaScript", "HTML", "CSS", "TypeScript", "React", "Next.js"],
     imageUrl: githubImg,
     link: "https://github.com/akamateus",
   },

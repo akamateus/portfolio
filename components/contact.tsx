@@ -52,7 +52,7 @@ export default function Contact() {
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4"
           name="message"
-          placeholder="Your message 🫰🏽"
+          placeholder="At this moment this function is disabled 🚧"
           required
           maxLength={2000}
         />
