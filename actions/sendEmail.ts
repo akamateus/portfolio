@@ -31,7 +31,7 @@ export const sendEmail = async (formData: FormData) => {
     from: "onboarding@resend.dev",
     to: "mateusoliveirac@hotmail.com",
     subject: "message from contact form",
-    reply_to: senderEmail,
-    text: message,
+    reply_to: senderEmail as string,
+    text: message as string,
   });
 };
