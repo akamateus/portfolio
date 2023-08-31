@@ -39,9 +39,6 @@ export default function Contact() {
       <form
         className="mt-10 flex flex-col"
         action={async (formData) => {
-          console.log(formData.get("senderEmail"));
-          console.log(formData.get("message"));
-
           await sendEmail(formData);
         }}
       >
