@@ -16,7 +16,7 @@ type ContactFormEmailProps = {
   message: string;
   senderEmail: string;
 };
-export default function contactFormEmail({
+export default function ContactFormEmail({
   message,
   senderEmail,
 }: ContactFormEmailProps) {
@@ -25,10 +25,10 @@ export default function contactFormEmail({
       <Head />
       <Preview>New message from your portfolio site</Preview>
       <Tailwind>
-        <Body>
+        <Body className="bg-gray-100">
           <Container>
-            <Section>
-              <Heading>
+            <Section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
+              <Heading className="leading-tight">
                 You received the following message from the Portfolio contact
                 form
               </Heading>
