@@ -8,9 +8,12 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
+import { useMode } from "@/context/mode-context";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
+  const { mode } = useMode();
+
   return (
     <section ref={ref} id="experience" className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>My experience</SectionHeading>
@@ -19,7 +22,8 @@ export default function Experience() {
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
-                background: "#f3f4f6",
+                background:
+                  mode === "light" ? "#f3f4f6" : "rgba(255,255, 255, 0.05)",
                 boxShadow: "none",
                 border: "1px solid rgba(0,0,0,0.05)",
                 textAlign: "left",
