@@ -4,6 +4,7 @@ import { Montserrat } from "next/font/google";
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import { Toaster } from "react-hot-toast";
 import Footer from "@/components/footer";
+import DarkMode from "@/components/darkmode";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -31,6 +32,8 @@ export default function RootLayout({
           {children}
           <Footer />
         </ActiveSectionContextProvider>
+
+        <DarkMode />
       </body>
     </html>
   );
