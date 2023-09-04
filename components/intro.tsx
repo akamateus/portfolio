@@ -39,7 +39,7 @@ export default function Intro() {
               quality="95"
               priority={true}
               className="
-            h-28 w-28 rounded-full object-cover  shadow-lg
+            h-28 w-28 rounded-full object-cover shadow-lg
             "
             />
           </motion.div>
