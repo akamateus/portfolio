@@ -16,10 +16,10 @@ export default function DarkMode() {
       initial={{ y: 100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ delay: 0.175 }}
-      className="fixed bottom-5 right-5 bg-white w-[2.5rem] h-[2.5rem] bg-opacity-80 backdrop-blur-[0.5rem] border border-white  border-opacity-40 shadow-2xl rounded-lg flex items-center justify-center hover:scale-[1.15] active:scale-105 transition-all dark:bg-gray-900"
+      className="fixed bottom-5 right-5 bg-white w-[2.5rem]  h-[2.5rem] bg-opacity-80 backdrop-blur-[0.5rem] border dark:border-white  border-opacity-40 shadow-2xl rounded-lg flex items-center justify-center hover:scale-[1.15] active:scale-105 transition-all dark:bg-gray-900"
       onClick={toggleMode}
     >
-      {mode === "light" ? <BsSun /> : <BsMoon />}
+      {mode === "light" ? <BsMoon /> : <BsSun />}
     </motion.button>
   );
 }
