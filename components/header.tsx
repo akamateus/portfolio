@@ -16,6 +16,26 @@ export default function Header() {
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       ></motion.div>
 
+      <motion.a
+        target="_blank"
+        href="https://www.youtube.com/watch?v=zhl-Cs1-sG4&ab_channel=DaftPunkVEVO"
+        className="flex fixed cursor-pointer top-[2.4rem] left-1 h-12  py-3 sm:top-[1.7rem] sm:h-[initial] sm:py-0"
+        initial={{ opacity: 0, scale: 0 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          type: "spring",
+          stiffness: 125,
+          delay: 0.1,
+          duration: 0.7,
+        }}
+      >
+        <h1 className="text-gray-900 dark:text-white">
+          aka
+          <span className="transition text-amber-400 font-bold hover:text-amber-200 dark:hover:text-white">
+            Mateus.
+          </span>
+        </h1>
+      </motion.a>
       <nav className="flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
         <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500 sm:w-[initial] sm:flex-nowrap sm:gap-5">
           {links.map((link) => (
