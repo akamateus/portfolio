@@ -38,10 +38,16 @@ export default function About() {
         </p>
         <p>
           I'm like a curious cat with with energy. Learning new things and music
-          are <span className="underline">my passion</span>, and I'm always on
-          the go – whether I'm coding up a storm, learning the latest tech
-          trends, or stumbling upon life hacks. This excitement fuels my journey
-          as I create
+          are{" "}
+          <a
+            href="https://open.spotify.com/user/12147384688?si=4ae4b928de424bf6"
+            className="underline"
+          >
+            my passion
+          </a>
+          , and I'm always on the go – whether I'm coding up a storm, learning
+          the latest tech trends, or stumbling upon life hacks. This excitement
+          fuels my journey as I create
           <span className="font-medium"> innovative web solutions</span>.
         </p>
       </div>
