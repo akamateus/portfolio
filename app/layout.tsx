@@ -11,7 +11,7 @@ import ModeContextProvider from "@/context/mode-context";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "akaMateus • Web Dev",
+  title: "Home • akaMateus",
   description: "Mateus is a Junior full-stack developer & Journalist.",
 };
 
