@@ -20,9 +20,9 @@ export default function About() {
       {/* className="border-2 rounded-lg border-black/10 p-4" */}
       <div>
         <p className="mb-3">
-          Hey there! I'm a Junior{" "}
-          <span className="font-medium">Web Developer</span> who just rocked a
-          full-stack Bootcamp, diving into all things in web like{" "}
+          Hey there! I'm a <span className="font-medium">Web Developer</span>{" "}
+          who just rocked a full-stack Bootcamp, diving into all things in web
+          like{" "}
           <span className="font-medium">
             HTML, CSS, JavaScript, TypeScript, Next.js, React, and MongoDB.{" "}
           </span>{" "}

@@ -85,6 +85,7 @@ export const projectsData = [
     imageUrl: myceleryImg,
     link: "https://mycelery.vercel.app/",
   },
+
   // {
   //   title: "Word Analytics",
   //   description:
@@ -108,4 +109,6 @@ export const skillsData = [
   "MongoDB",
   "Express",
   "Framer Motion",
+  "Jira Agile",
+  "AWS technologies",
 ] as const;
